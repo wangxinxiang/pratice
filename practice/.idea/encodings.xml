@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/res/layout/meitu.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/mirror.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/BeautifulGirl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/DrawSurface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/MeiTuXiuXiu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/MirrorSurface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/下拉刷新01/src/com/itcast01/refreshlistview/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/下拉刷新01/src/com/itcast01/refreshlistview/view/RefreshListView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/传智新闻/src/com/itcast01/slidemenu/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/传智新闻/src/com/itcast01/slidemenu/view/SlideMenu.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/自定义开关01/src/com/itcast01/togglebutton/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/../资料/视频/05自定义控件_黑马35期完整版/代码和第一天的笔记/自定义开关01/src/com/itcast01/togglebutton/view/ToggleView.java" charset="GBK" />
+  </component>
+</project>

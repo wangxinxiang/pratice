@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:toggle="http://schemas.android.com/apk/res/com.example.practice"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:orientation="vertical"
+              android:layout_height="match_parent">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="O(∩_∩)O哈哈哈~"
+            android:textSize="20sp"
+            android:textColor="@color/red_light"
+            android:id="@+id/welcome"/>
+
+    <com.example.practice.view.ToggleButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+            toggle:backgroundId="@drawable/switch_background"
+            toggle:buttonId="@drawable/slide_button_background"
+            toggle:currentState="true"
+            android:id="@+id/toggle_button"
+            android:layout_centerHorizontal="true"/>
+
+    <com.example.practice.view.RefreshforListView android:layout_width="match_parent"
+                                                  android:layout_height="wrap_content"
+                                                  android:id="@+id/my_refresh_listview"/>
+
+
+</LinearLayout>

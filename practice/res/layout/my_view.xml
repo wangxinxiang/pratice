@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:myapp="http://schemas.android.com/apk/res/com.example.practice"
+              android:orientation="vertical"
+              android:background="@color/blue_light"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        tools:context=".MyActivity">
+
+    <com.example.practice.view.RoundImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/a"
+            android:background="@color/green_light"
+            myapp:border_inside_color="#bc0978"
+            myapp:border_outsize_color="#ba3456"
+            myapp:border_thickness="1dp"
+            />
+
+    <com.example.practice.view.TestImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/b"/>
+
+
+
+    <!--<com.example.practice.view.MyFirstView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--Text="这是文字描述"-->
+            <!--Src="@drawable/ic_launcher"/>-->
+
+    <com.example.practice.view.MyFirstLinerLayout android:layout_width="wrap_content"
+                                                  android:layout_height="wrap_content"
+            myapp:Text="第二个文字描述"
+            myapp:Src="@drawable/ic_launcher"
+            myapp:Oriental="Vertical"/>
+
+
+</LinearLayout>

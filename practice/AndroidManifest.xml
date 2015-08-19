@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.practice"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="16"/>
+
+    <!--获取通话权限-->
+    <uses-permission android:name="android.permission.call_phone"/>
+    <!--获取通讯录权限-->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!--获取通话状态权限-->
+    <uses-permission android:name="android.permission.read_phone_state"/>
+    <!--获取震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!--获取SD卡读取权限-->
+    <uses-permission android:name="ANDROID.PERMISSION.WRITE_EXTERNAL_STORAGE"/>
+    <!--获取网络权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+        <activity android:name=".WelcomeActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Light.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".FirstSurfaceView"/>
+        <activity android:name=".MyActivity"/>
+        <activity android:name=".TestViewGroupActivity"/>
+        <activity android:name=".MirrorSurface"/>
+        <activity android:name=".MeiTuXiuXiu"/>
+        <activity android:name=".DrawSurface"/>
+        <activity android:name=".BeautifulGirl"/>
+
+        <service android:name=".service.FirstService">
+            <intent-filter>com.example.practice.service.FirstService</intent-filter>
+        </service>
+        <service android:name=".service.FirstIntentService"/>
+    </application>
+</manifest>

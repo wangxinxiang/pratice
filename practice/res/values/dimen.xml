@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--sliding menu 尺寸信息 -->
+    <dimen name="shadow_width">4dp</dimen>
+    <dimen name="slidingmenu_offset">200dp</dimen>
+    <dimen name="list_padding">8dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-support-v45">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../资料/视频/day10/code/12_撕衣服/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

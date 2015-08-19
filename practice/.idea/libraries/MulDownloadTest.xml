@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MulDownloadTest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../demo/断点下载/MulDownloadTest.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

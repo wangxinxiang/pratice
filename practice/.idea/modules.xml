@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../资料/视频/day06/code/06_android多线程下载器/06_android多线程下载器1.iml" filepath="$PROJECT_DIR$/../资料/视频/day06/code/06_android多线程下载器/06_android多线程下载器1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../资料/视频/day06/code/07_开源多线程断点下载器/07_开源多线程断点下载器.iml" filepath="$PROJECT_DIR$/../资料/视频/day06/code/07_开源多线程断点下载器/07_开源多线程断点下载器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slh_support/slidingmenu_lib/slidingmenu_lib.iml" filepath="$PROJECT_DIR$/../slh_support/slidingmenu_lib/slidingmenu_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../demo/断点下载/断点下载.iml" filepath="$PROJECT_DIR$/../demo/断点下载/断点下载.iml" />
+    </modules>
+  </component>
+</project>

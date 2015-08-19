@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../资料/视频/day06/code/07_开源多线程断点下载器/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../资料/视频/day06/code/07_开源多线程断点下载器/libs/xUtils-2.6.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
