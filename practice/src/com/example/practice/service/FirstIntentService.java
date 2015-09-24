@@ -4,7 +4,7 @@ import android.app.IntentService;
 import android.content.Intent;
 import android.os.SystemClock;
 import android.text.format.DateFormat;
-import com.example.practice.until.Constant;
+import com.example.practice.util.Constant;
 
 /**
  * Created by Administrator on 2015/6/22.

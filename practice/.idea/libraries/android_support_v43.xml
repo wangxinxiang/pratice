@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="android-support-v43">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../ScrollViewWithViewPager/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/weibo/weibo_android_sdk/demo-src/WeiboSDKDemo/libs/android-support-v4.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

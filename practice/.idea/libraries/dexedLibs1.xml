@@ -1,8 +1,16 @@
 <component name="libraryTable">
   <library name="dexedLibs1">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../ScrollViewWithViewPager/bin/dexedLibs/android-support-v4-a5558463a39c9bf09569eb8f60283eb2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../ScrollViewWithViewPager/bin/dexedLibs/android-support-v4-1a12bf8c900198da609238a1f23cd33d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipayutdid-ffd98dcb8b0b0420c9e5a75265161386.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/annotations-639c37aa97c490a07c6bf4499255ce09.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipayutdid-96dee85839275f8bbd38541a69f2fc76.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipaysecsdk-dc557434b6a9a66c4b1a02daea6611fa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/android-support-v13-ee4312d0e31ae6c2689feabfbaed1f04.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/annotations-835d4b1e921a2227d6948d7bfaf316d2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipaysdk-27bf96dec14a47b22ffa39074fda8421.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/android-support-v13-d9110026d249fc39586cc7b7de930927.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipaysdk-fe0fabee5cec8e539a53f7029491b86d.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/bin/dexedLibs/alipaysecsdk-d60552f0f78842caecb7c2f14cf845df.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

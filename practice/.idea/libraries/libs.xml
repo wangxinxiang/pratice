@@ -1,10 +1,10 @@
 <component name="libraryTable">
   <library name="libs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../example/PrivateCustom/libs/android-support-v4.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../example/PrivateCustom/libs/gson-2.2.4.jar!/" />
+      <root url="file://E:/01.项目资料/赚钱包/zqbandroid/libs" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://E:/01.项目资料/赚钱包/zqbandroid/libs" recursive="false" />
   </library>
 </component>

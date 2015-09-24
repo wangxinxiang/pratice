@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WeChatSDK_sample_Android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../library/WeChat/WeChatSDK_sample_Android.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

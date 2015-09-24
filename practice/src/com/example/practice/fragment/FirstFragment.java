@@ -2,7 +2,6 @@ package com.example.practice.fragment;
 
 import android.app.Service;
 import android.content.Intent;
-import android.database.Cursor;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -11,14 +10,16 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.AnimationSet;
+import android.view.animation.ScaleAnimation;
 import android.widget.*;
-import com.example.practice.FirstSurfaceView;
+import com.example.practice.ui.FirstSurfaceView;
 import com.example.practice.R;
-import com.example.practice.TestViewGroupActivity;
+import com.example.practice.ui.TestViewGroupActivity;
 import com.example.practice.adapter.ListViewAdapter;
 import com.example.practice.service.ContactInfoParser;
-import com.example.practice.until.Constant;
-import com.example.practice.until.Utility;
 import com.example.practice.view.FragmentDialog;
 import com.example.practice.view.FragmentDialog2;
 
@@ -115,7 +116,7 @@ public class FirstFragment extends Fragment {
         });
 
         //popupWindow
-        ViewGroup root = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.my_view, null);
+        final ViewGroup root = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.my_view, null);
         final PopupWindow popupWindow = new PopupWindow(root, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         //设置点击外部可dimiss
         popupWindow.setOutsideTouchable(true);
@@ -125,6 +126,15 @@ public class FirstFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 popupWindow.showAsDropDown(button1);         //在view位置下出现的弹框
+                AlphaAnimation alphaAnimation = new AlphaAnimation(0.5f, 1.0f);
+                alphaAnimation.setDuration(200);
+                ScaleAnimation scaleAnimation = new ScaleAnimation(1.5f, 1.0f, 1.5f, 1.0f,
+                        Animation.RELATIVE_TO_SELF, 0, Animation.RELATIVE_TO_SELF, 0.5f);
+                scaleAnimation.setDuration(200);
+                AnimationSet animationSet = new AnimationSet(false);
+                animationSet.addAnimation(alphaAnimation);
+                animationSet.addAnimation(scaleAnimation);
+                root.startAnimation(animationSet);
             }
         });
 

@@ -4,6 +4,10 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="16"/>
+    
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.example.practice"/>
 
     <!--获取通话权限-->
     <uses-permission android:name="android.permission.call_phone"/>
@@ -20,8 +24,15 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
+    <uses-permission android:name = "android.permission.CAMERA" />
+
+    <uses-feature android:name = "android.hardware.camera" />
+
+    <uses-feature android:name = "android.hardware.camera.autofocus" />
+
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name=".WelcomeActivity"
+        <uses-library android:name="android.test.runner"/>
+        <activity android:name=".ui.WelcomeActivity"
                   android:label="@string/app_name"
                   android:theme="@android:style/Theme.Light.NoTitleBar">
             <intent-filter>
@@ -30,13 +41,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".FirstSurfaceView"/>
-        <activity android:name=".MyActivity"/>
-        <activity android:name=".TestViewGroupActivity"/>
-        <activity android:name=".MirrorSurface"/>
-        <activity android:name=".MeiTuXiuXiu"/>
-        <activity android:name=".DrawSurface"/>
-        <activity android:name=".BeautifulGirl"/>
+        <activity android:name=".ui.FirstSurfaceView"/>
+        <activity android:name=".ui.MyActivity"/>
+        <activity android:name=".ui.TestViewGroupActivity"/>
+        <activity android:name=".ui.MirrorSurface"/>
+        <activity android:name=".ui.MeiTuXiuXiu"/>
+        <activity android:name=".ui.DrawSurface"/>
+        <activity android:name=".ui.BeautifulGirl"/>
+        <activity android:name=".ui.MainActivity"/>
 
         <service android:name=".service.FirstService">
             <intent-filter>com.example.practice.service.FirstService</intent-filter>

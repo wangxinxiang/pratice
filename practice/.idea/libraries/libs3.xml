@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../资料/视频/12、2014_手机彩票/day3/caipiao3/libs/commons-lang3-3.0-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../资料/视频/12、2014_手机彩票/day3/caipiao3/libs/commons-codec.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../资料/视频/12、2014_手机彩票/day3/caipiao3/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

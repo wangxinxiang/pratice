@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/libs/alipaySDK-20150610.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../library/支付宝/alipay_demo/libs/android-support-v13.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

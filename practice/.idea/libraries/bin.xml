@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="bin">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../slh_support/slidingmenu_lib/bin/slidingmenu_library.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../slh_support/slidingmenu_lib/bin/library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../slh_support/slidingmenu_lib/bin/slidingmenu_library.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../slh_support/slidingmenu_lib/bin/library.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

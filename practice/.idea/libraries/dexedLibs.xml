@@ -1,8 +1,26 @@
 <component name="libraryTable">
   <library name="dexedLibs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../example/PrivateCustom/bin/dexedLibs/android-support-v4-2a9a23fda2387568ae55e940216ee312.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../example/PrivateCustom/bin/dexedLibs/gson-2.2.4-8146db92cf95c2c77f890a7688a0ae1e.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/escore-component-encrypt-1.2-acfde59fb1c25e4623c7cae28a724d4f.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/TapjoyWallSDK_v9.1.5-b579983a47b5d874faa42366ab3168e2.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/android-support-v4-843e725cf92c9600a5519f9065dc47c9.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/YJFWallSdk_v4.0.0-dd4ec441e001eba97b141b48aef837c6.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/WiOffer_v1.3.6-041d5b5ca62b1a8e48a6f2860611f86d.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/WapsWallSDK_v2.0.7-cb705b70b48f538ef7ab46a5146df8ed.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/AdwoWallSDK_v2.1-34a5f39acc4e072fc4f23aec2d0377c0.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/DianLeWallSDK_v3.0.5-80897a77aca0a90c75c645d6cde89b42.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/LiMeiWallSDK_v2.7.0-48f4e0976587a7a854dcaef4b64a56a3.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/AderWallSDK_v1.0.9-88d74fe56e1bbd06fd2762d8b6745c75.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/DomobWwallSdk_v1.1.1-4cb9ae861634902939174f5fe4518562.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/universal-image-loader-1.8.5-eca739f60b7f6a9a3eb9ed73a966f37b.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/BaiduWallSDK_1.2-a64c98812d9c8a7fa83e070005d52d8a.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/annotations-b12e55631dba3fb49d32286e26bfa7aa.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/MiidiadWallSDK_2.4.2-26cda156737ebcfde6f34058abcc094a.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/DianjinWallSDK_v2.0-8bc7402460385113294ecdd0caee8c01.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/AdsMOGO_Offer_Android_SDK_1.0.8-bf333abaae2bb2d519c86a35d26bfed1.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/YoumiSdk_v4.06-affbcc6d8533f6a690a8b3e4fef07342.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/AppDriver_v3.0-cc50bf55f5e6d5d43026b9eb71183815.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/AdsMOGO_Offer_Android_SDK_1.0.8/Sample/bin/dexedLibs/MpadWallSdk_v1.1.2-2bc18d43857451aac4e3c1059bed0a27.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
