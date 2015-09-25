@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs3">
+    <CLASSES>
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/mpad_wall_sdk_1_2_1-4ea6e8b46211e173e76c302460401a31.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/mpad_wall_sdk_1_2-fea0e217f7407db108072db4fdbad460.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/sdk-f2c5cb6d65f00b08a0b1d6f9cd08ad29.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/annotations-f32c828af3540948d63ceb30df648a82.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/sdk线上混淆-f7c2f738493a4e797a20e028230dda33.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/mopan_android_sdk_v1.2.1/code/MpWallSample/bin/dexedLibs/sdkv1.2.1-7be7d8d3eee4fe5725323579f5a00093.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
@@ -17,6 +18,7 @@ import com.example.practice.R;
 import com.example.practice.dao.TimeDBHelper;
 import com.example.practice.dao.domain.UserTime;
 import com.example.practice.dao.impl.TimeDaoImpl;
+import com.example.practice.util.Constant;
 import com.example.practice.view.RefreshforListView;
 import com.example.practice.view.ToggleButton;
 
@@ -35,6 +37,7 @@ public class WelcomeActivity extends Activity {
         saveUserTime();
         initView();
         initListener();
+        setScreenSize();
     }
 
     private void initView() {
@@ -142,5 +145,14 @@ public class WelcomeActivity extends Activity {
     private String getLastTime() {
         TimeDaoImpl dao = new TimeDaoImpl(this);
         return dao.getTime();
+    }
+
+    /**
+     * 获取屏幕尺寸并储存
+     */
+    private void setScreenSize(){
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        Constant.SCREEN_HEIGHT = displayMetrics.heightPixels;
+        Constant.SCREEN_WIDTH = displayMetrics.widthPixels;
     }
 }
