@@ -34,7 +34,7 @@
         <uses-library android:name="android.test.runner"/>
         <activity android:name=".ui.WelcomeActivity"
                   android:label="@string/app_name"
-                  android:theme="@android:style/Theme.Light.NoTitleBar">
+                  android:theme="@style/AppBaseTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -49,6 +49,9 @@
         <activity android:name=".ui.DrawSurface"/>
         <activity android:name=".ui.BeautifulGirl"/>
         <activity android:name=".ui.MainActivity"/>
+        <activity android:name=".ui.MyRecyclerView"
+            android:theme="@style/AppBaseTheme"/>
+        <activity android:name=".ui.TreeListViewActivity"/>
 
         <service android:name=".service.FirstService">
             <intent-filter>com.example.practice.service.FirstService</intent-filter>

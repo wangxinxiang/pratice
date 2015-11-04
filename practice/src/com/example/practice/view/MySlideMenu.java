@@ -78,6 +78,7 @@ public class MySlideMenu extends ViewGroup{
 
                 lastTouchX = currentX;
                 break;
+            case MotionEvent.ACTION_CANCEL:     //当触摸屏幕边缘时
             case MotionEvent.ACTION_UP:
                 int scrollX = getScrollX();
 
@@ -111,7 +112,8 @@ public class MySlideMenu extends ViewGroup{
 
     @Override
     public void computeScroll() {
-        if (mScroller.computeScrollOffset()) {
+        if (mScroller.computeScrollOffset()) {      //当startScroll执行过程中即在duration时间内，
+                                                    // computeScrollOffset 方法会一直返回false，但当动画执行完成后会返回返加true.
             // 当前正在模拟数据, 取出x轴模拟的值, 设置给scrollTo方法.
             int curr = mScroller.getCurrX();
             scrollTo(curr, 0);

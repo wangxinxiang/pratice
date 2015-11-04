@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/Miandan/libs/android-support-v4.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Miandan/libs/BaiduLBS_Android.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/Miandan/libs/locSDK_3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

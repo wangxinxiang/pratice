@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_bg.9.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_01.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_02.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_03.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_04.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_05.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_06.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_07.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_08.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_09.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_10.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_11.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable-hdpi/ic_loading_white_12.png" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/drawable/progress_drawable_white.xml" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/dialog.xml" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/beans/BaseBean.java" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/beans/InitUserBean.java" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/beans/UserLoginBean.java" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/ui/MainActivity.java" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/util/ProgressDialog.java" charset="UTF-8" />
-    <file url="file://E:/01.项目资料/赚钱包/zqbandroid/src/com/jhlc/zqb/util/VolleyInterface.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../../../library/WeChat/src/net/sourceforge/simcpux/Constants.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/../../../library/WeChat/src/net/sourceforge/simcpux/SendToWXActivity.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/../../../library/WeChat/src/net/sourceforge/simcpux/wxapi/WXEntryActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/libs/android-support-v4.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/android-support-v7-recyclerview.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/layout/meitu.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/layout/mirror.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/adapter/RecyclerViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/fragment/FirstRecyclerView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/BeautifulGirl.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/DrawSurface.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MainActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MeiTuXiuXiu.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MirrorSurface.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MyRecyclerView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/util/DividerItemDecoration.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

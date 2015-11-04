@@ -29,7 +29,6 @@ public class FirstSurfaceView extends Activity{
     private Paint paint;
     private SurfaceHolder holder;
     private MySlideMenu slideMenu;
-    private Button mirror, meitu, test1_draw, test1_girl, app_txwl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,11 +41,11 @@ public class FirstSurfaceView extends Activity{
     }
 
     private void initView() {
-        mirror = (Button) findViewById(R.id.test1_mirror);
-        meitu = (Button) findViewById(R.id.test1_meitu);
-        test1_draw = (Button) findViewById(R.id.test1_draw);
-        test1_girl = (Button) findViewById(R.id.test1_girl);
-        app_txwl = (Button) findViewById(R.id.app_txwl);
+        Button mirror = (Button) findViewById(R.id.test1_mirror);
+        Button meitu = (Button) findViewById(R.id.test1_meitu);
+        Button test1_draw = (Button) findViewById(R.id.test1_draw);
+        Button test1_girl = (Button) findViewById(R.id.test1_girl);
+        Button app_txwl = (Button) findViewById(R.id.app_txwl);
         ToggleButton toggleButton = (ToggleButton) findViewById(R.id.take_photo);
         toggleButton.setOnToggleButtonListener(new ToggleButton.ToggleButtonListener() {
             @Override
@@ -105,6 +104,14 @@ public class FirstSurfaceView extends Activity{
                 }
             }
         });
+
+        findViewById(R.id.test1_tree).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstSurfaceView.this, TreeListViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     /**
@@ -138,6 +145,13 @@ public class FirstSurfaceView extends Activity{
         notificationManager.notify(0, notification1);
     }
 
+    /**
+     * recylerView的点击事件处理
+     */
+    public void recylerViewOnClick(View view) {
+        Intent intent = new Intent(this, MyRecyclerView.class);
+        startActivity(intent);
+    }
 
     private void initSlideMenu() {
         slideMenu = (MySlideMenu) findViewById(R.id.slidemenu);

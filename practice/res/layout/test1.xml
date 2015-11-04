@@ -26,4 +26,10 @@
     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="通知栏提醒"
             android:onClick="notification"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="RecyclerView的使用"
+        android:onClick="recylerViewOnClick"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="树形listview"
+        android:id="@+id/test1_tree"/>
 </LinearLayout>
