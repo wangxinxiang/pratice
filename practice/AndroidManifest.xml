@@ -52,6 +52,7 @@
         <activity android:name=".ui.MyRecyclerView"
             android:theme="@style/AppBaseTheme"/>
         <activity android:name=".ui.TreeListViewActivity"/>
+        <activity android:name=".ui.FlowLayoutActivity"/>
 
         <service android:name=".service.FirstService">
             <intent-filter>com.example.practice.service.FirstService</intent-filter>

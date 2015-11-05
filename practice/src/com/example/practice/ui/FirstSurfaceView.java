@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.RemoteViews;
 import com.example.practice.R;
 import com.example.practice.service.GetAllAppService;
+import com.example.practice.view.FlowLayout;
 import com.example.practice.view.MySlideMenu;
 import com.example.practice.view.ToggleButton;
 
@@ -109,6 +110,14 @@ public class FirstSurfaceView extends Activity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FirstSurfaceView.this, TreeListViewActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        findViewById(R.id.test1_flowlayout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FirstSurfaceView.this, FlowLayoutActivity.class);
                 startActivity(intent);
             }
         });

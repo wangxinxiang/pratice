@@ -32,4 +32,7 @@
     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="树形listview"
         android:id="@+id/test1_tree"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="自定义flowlayout"
+        android:id="@+id/test1_flowlayout"/>
 </LinearLayout>
