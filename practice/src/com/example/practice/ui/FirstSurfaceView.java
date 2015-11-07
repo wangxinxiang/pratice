@@ -16,6 +16,7 @@ import android.widget.Button;
 import android.widget.RemoteViews;
 import com.example.practice.R;
 import com.example.practice.service.GetAllAppService;
+import com.example.practice.view.ArcMenu;
 import com.example.practice.view.FlowLayout;
 import com.example.practice.view.MySlideMenu;
 import com.example.practice.view.ToggleButton;
@@ -119,6 +120,13 @@ public class FirstSurfaceView extends Activity{
             public void onClick(View v) {
                 Intent intent = new Intent(FirstSurfaceView.this, FlowLayoutActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        ((ArcMenu)findViewById(R.id.arcmenu_right_bpttom)).setmListener(new ArcMenu.OnArcItemClickListener() {
+            @Override
+            public void onClick(View view, int pos) {
+
             }
         });
     }

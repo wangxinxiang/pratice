@@ -1,38 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="200dp"
-              android:gravity="center"
-              android:background="@drawable/menu_background"
-              android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="test1"
-            android:id="@+id/test1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/menu_background"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="镜像图片"
-            android:id="@+id/test1_mirror"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="美图"
-            android:id="@+id/test1_meitu"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="画板"
-            android:id="@+id/test1_draw"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="美女"
-            android:id="@+id/test1_girl"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="通知栏提醒"
-            android:onClick="notification"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="RecyclerView的使用"
-        android:onClick="recylerViewOnClick"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="树形listview"
-        android:id="@+id/test1_tree"/>
-    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="自定义flowlayout"
-        android:id="@+id/test1_flowlayout"/>
-</LinearLayout>
+        <TextView
+            android:id="@+id/test1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test1" />
+
+        <Button
+            android:id="@+id/test1_mirror"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="镜像图片" />
+
+        <Button
+            android:id="@+id/test1_meitu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美图" />
+
+        <Button
+            android:id="@+id/test1_draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="画板" />
+
+        <Button
+            android:id="@+id/test1_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="美女" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="notification"
+            android:text="通知栏提醒" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="recylerViewOnClick"
+            android:text="RecyclerView的使用" />
+
+        <Button
+            android:id="@+id/test1_tree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="树形listview" />
+
+        <Button
+            android:id="@+id/test1_flowlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义flowlayout" />
+    </LinearLayout>
+
+    <include layout="@layout/arcmenu"/>
+</RelativeLayout>
