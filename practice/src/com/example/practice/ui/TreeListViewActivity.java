@@ -3,9 +3,14 @@ package com.example.practice.ui;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -27,16 +32,39 @@ public class TreeListViewActivity extends Activity{
     private ListView tree;
     private MyTreeListViewAdapter<FileBean> adapter;
     private List<FileBean> dates = new ArrayList<>();
+    private SwipeRefreshLayout refreshLayout;
+    private Handler mHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tree_listview);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         initDates();
         initView();
+        mHandler = new Handler(new Handler.Callback() {
+            @Override
+            public boolean handleMessage(Message msg) {
+                refreshLayout.setRefreshing(false);
+                return false;
+            }
+        });
     }
 
     private void initView() {
+        refreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_widget);
+        refreshLayout.setColorSchemeResources(R.color.blue_light);
+        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                mHandler.sendEmptyMessageDelayed(0, 1000);
+            }
+        });
+
         tree = (ListView) findViewById(R.id.lv_tree);
 
         try {
@@ -93,5 +121,11 @@ public class TreeListViewActivity extends Activity{
         dates.add(bean);
         bean = new FileBean(6, 5, "根目录1-2-1");
         dates.add(bean);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mHandler.removeCallbacksAndMessages(null);
     }
 }
