@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
-      <module fileurl="file://E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/social_sdk_example.iml" filepath="E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/social_sdk_example.iml" />
     </modules>
   </component>
 </project>

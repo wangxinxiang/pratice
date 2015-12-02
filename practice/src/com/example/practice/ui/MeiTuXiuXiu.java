@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import com.example.practice.R;
+import com.example.practice.view.CircleImageDrawable;
+import com.example.practice.view.RoundImageDrawable;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
@@ -97,7 +99,7 @@ public class MeiTuXiuXiu extends Activity implements OnSeekBarChangeListener {
 		// matrix 变化矩阵
 		// paint 画笔
 		canvas.drawBitmap(srcBitmap, new Matrix(), paint);
-		iv.setImageBitmap(copyBitmap);
+		iv.setImageDrawable(new RoundImageDrawable(copyBitmap));
 	}
 
 	@Override
@@ -145,7 +147,7 @@ public class MeiTuXiuXiu extends Activity implements OnSeekBarChangeListener {
 		});
 		paint.setColorFilter(new ColorMatrixColorFilter(cm));
 		canvas.drawBitmap(srcBitmap, new Matrix(), paint);
-		iv.setImageBitmap(copyBitmap);
+		iv.setImageDrawable(new CircleImageDrawable(copyBitmap));
 	}
 
 }

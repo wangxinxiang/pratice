@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs10">
+    <CLASSES>
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/android积分墙SDK4.0.2/DMOffwallSample/libs/dm_offerwall_4.0.2.jar!/" />
+      <root url="jar://E:/01.项目资料/赚钱包/sdk/android积分墙SDK4.0.2/DMOffwallSample/libs/android-support-v4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
