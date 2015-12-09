@@ -132,26 +132,81 @@
           <theme>@android:style/Theme.Holo</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/welcom.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="--" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.example.practice" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5138a7d7-6fb9-4c7c-a890-d5c7d33983c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/view/CircleImageDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/view/RoundImageDrawable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi/libhello.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/libhello.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/x86/libhello.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_line_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_point_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_point_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v44.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4_1c768c2e7d43f5f7517cf641d22cdfe5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/beiduo_sdk_wall_v5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexedLibs6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dlnetwork.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dlnetwork_79a881b58a8c37dda0f046feb6e0e410.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fg_lock_pattern.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_circle_error.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_circle_normal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_line_normal.xml" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\dexedLibs4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\dexedLibs5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs6.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs7.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/BeautifulGirl.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/BeautifulGirl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/fragment/FirstFragment.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/fragment/FirstFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FirstSurfaceView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FirstSurfaceView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FlowLayoutActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FlowLayoutActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MeiTuXiuXiu.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MeiTuXiuXiu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MirrorSurface.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MirrorSurface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyFirstViewActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyFirstViewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyRecyclerView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyRecyclerView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/MyTreeListViewAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/MyTreeListViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$id.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$layout.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$string.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$style.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$styleable.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter$MyViewHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/RefreshforListView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/RefreshforListView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TestViewGroupActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TestViewGroupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/ToggleButton.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/ToggleButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/util/treeview/TreeHelper.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/util/treeview/TreeHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TreeListViewActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TreeListViewActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$1.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$2.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$3.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$MyAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/practice.apk" afterPath="$PROJECT_DIR$/out/production/practice/practice.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/practice.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/practice/practice.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/ui/MeiTuXiuXiu.java" afterPath="$PROJECT_DIR$/src/com/example/practice/ui/MeiTuXiuXiu.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" afterPath="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice.iml" afterPath="$PROJECT_DIR$/practice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/welcom.xml" afterPath="$PROJECT_DIR$/res/layout/welcom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -203,15 +258,32 @@
       <file leaf-file-name="LockPatternView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23384616">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#275#276#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#372#373#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.17538461">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fg_lock_pattern.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -225,8 +297,9 @@
         <option value="Interface" />
         <option value="AnnotationType" />
         <option value="resourceFile" />
-        <option value="layoutResourceFile_vertical" />
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Fragment" />
       </list>
     </option>
   </component>
@@ -241,20 +314,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/db/SetNewMsgDB.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/MainFragmentActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/bean/PostBackDataBean.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/utils/PreferenceUtils.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/res/layout/tab_users_noselect_layout.xml" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/src/com/jhlc/ls/TabUserNoSelectActivity.java" />
-        <option value="$PROJECT_DIR$/../../../zxl/zxl_log/res/layout/newmain_tab_notebook.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/DividerItemDecoration.java" />
-        <option value="$PROJECT_DIR$/res/drawable/circle_progress.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/divider_recycleview.xml" />
-        <option value="$PROJECT_DIR$/res/values/style.xml" />
-        <option value="$PROJECT_DIR$/res/layout/recyclerview_test.xml" />
         <option value="$PROJECT_DIR$/src/com/example/practice/ui/MyRecyclerView.java" />
         <option value="$PROJECT_DIR$/src/com/example/practice/fragment/FirstRecyclerView.java" />
         <option value="$PROJECT_DIR$/res/layout/text_item.xml" />
@@ -291,7 +350,21 @@
         <option value="$PROJECT_DIR$/src/com/example/practice/view/CircleImageDrawable.java" />
         <option value="$PROJECT_DIR$/res/layout/my_view.xml" />
         <option value="$PROJECT_DIR$/src/com/example/practice/ui/MeiTuXiuXiu.java" />
+        <option value="$PROJECT_DIR$/res/drawable/lock_circle.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/lock_line._errorxml" />
+        <option value="$PROJECT_DIR$/res/drawable/lock_circle_error.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/circle_progress.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/lock_line.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/lock_line._error.xml" />
+        <option value="E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/src/com/dlnetwork/example/DianleSDkExampleActivity.java" />
+        <option value="E:/01.项目资料/赚钱包/sdk/多盟android积分墙SDK4.0.2/DMOffwallSample/src/com/dynamic/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/welcom.xml" />
+        <option value="$PROJECT_DIR$/res/layout/lock_pattern_fragment.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fg_lock_pattern.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/fragment/LockPatternFragment.java" />
         <option value="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/administrator/myapplication/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -365,7 +438,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -398,6 +472,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -416,11 +494,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="mynative" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -438,19 +520,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fragment" />
+              <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -464,8 +559,8 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="IVFQSWGAS8DYJB49" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_S_by_Google" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../demo/MyApplication" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31724137" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
@@ -479,6 +574,8 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="IVFQSWGAS8DYJB49" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -489,11 +586,11 @@
       <recent name="com.example.practice" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wang\practice\pratice\practice\libs" />
+      <recent name="E:\wang\practice\pratice\practice\res\drawable-xhdpi" />
+      <recent name="E:\wang\practice\pratice\practice\res\drawable" />
       <recent name="E:\wang\practice\pratice\practice\res\drawable-hdpi" />
       <recent name="E:\wang\practice\pratice\practice\res\drawable-mdpi" />
-      <recent name="E:\wang\practice\pratice\practice\res\drawable-xhdpi" />
-      <recent name="E:\wang\practice\pratice\practice\src\com\example\practice\util" />
-      <recent name="E:\wang\practice\pratice\practice\libs" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.practice" />
@@ -698,7 +795,7 @@
       <method />
     </configuration>
     <configuration default="false" name="test" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="DMOffwallSample" />
+      <module name="zhy_gestureLockView" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
@@ -895,40 +992,40 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.4971223" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.4971223" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32551318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44109195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5028777" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5028777" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32551318" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4400289" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963924" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25829726" sideWeight="0.49425286" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46551725" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4648094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46264368" sideWeight="0.7093525" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46264368" sideWeight="0.7093525" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32614943" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34051725" sideWeight="0.36546764" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34051725" sideWeight="0.36546764" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -963,311 +1060,21 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/widget/BaseAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.518225">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/widget/ListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5435816">
-          <caret line="500" column="76" selection-start-line="500" selection-start-column="76" selection-end-line="500" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/src/com/umeng/soexample/widget/CustomShareBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7168674">
-          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33283132">
-          <caret line="1132" column="16" selection-start-line="1132" selection-start-column="16" selection-end-line="1132" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3636365">
-          <caret line="18306" column="22" selection-start-line="18306" selection-start-column="22" selection-end-line="18306" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22891566">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/WindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7876506">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/ViewParent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.195783">
-          <caret line="33" column="29" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/ViewManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5436747">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/WindowManagerGlobal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.939394">
-          <caret line="298" column="33" selection-start-line="298" selection-start-column="33" selection-end-line="298" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/ViewRootImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.969697">
-          <caret line="374" column="22" selection-start-line="374" selection-start-column="22" selection-end-line="374" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4186747">
-          <caret line="565" column="16" selection-start-line="565" selection-start-column="16" selection-end-line="565" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/WindowManagerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33280507">
-          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39302695">
-          <caret line="3834" column="23" selection-start-line="3834" selection-start-column="23" selection-end-line="3834" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/util/treeview/adapter/TreeListViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/arcmenu.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/MaterialProgressDrawable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.258064">
-          <caret line="470" column="31" selection-start-line="470" selection-start-column="24" selection-end-line="470" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5421687">
-          <caret line="72" column="45" selection-start-line="72" selection-start-column="45" selection-end-line="72" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/app/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33283132">
-          <caret line="1204" column="19" selection-start-line="1204" selection-start-column="19" selection-end-line="1204" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/os/SystemClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33283132">
-          <caret line="164" column="30" selection-start-line="164" selection-start-column="30" selection-end-line="164" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-23/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4759036">
-          <caret line="569" column="55" selection-start-line="569" selection-start-column="55" selection-end-line="569" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/widget/SwipeRefreshLayout.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47867298">
-          <caret line="380" column="5" selection-start-line="380" selection-start-column="5" selection-end-line="380" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/tree_listview.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35544217">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/TreeListViewActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="29" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/BitmapShader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23420647">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/drawable/Drawable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33281973">
-          <caret line="830" column="15" selection-start-line="830" selection-start-column="15" selection-end-line="830" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/fragment/FirstRecyclerView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20493066">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/first_fragment.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5245903">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39291218">
-          <caret line="1179" column="16" selection-start-line="1179" selection-start-column="16" selection-end-line="1179" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Paint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5084746">
-          <caret line="951" column="21" selection-start-line="951" selection-start-column="15" selection-end-line="951" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/PixelFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3220339">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/RoundImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="124" column="85" selection-start-line="124" selection-start-column="79" selection-end-line="124" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/TestImageView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7365177">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/src/com/umeng/soexample/fragments/ShareFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23420647">
-          <caret line="365" column="36" selection-start-line="365" selection-start-column="25" selection-end-line="365" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/android积分墙SDK4.0.2/DMOffwallSample/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.357142">
-          <caret line="38" column="58" selection-start-line="33" selection-start-column="8" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/android积分墙SDK4.0.2/DMOffwallSample/src/com/dynamic/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4894578">
-          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/fragment/FirstFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="97" selection-start-line="118" selection-start-column="94" selection-end-line="118" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/my_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7290016">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/first_surface_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.212121">
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/CircleImageDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035384614">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,19 +1082,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3323077">
           <caret line="754" column="25" selection-start-line="754" selection-start-column="25" selection-end-line="754" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/BeautifulGirl.java">
@@ -1298,21 +1104,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/test1.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41491085">
           <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="77" column="73" selection-start-line="77" selection-start-column="73" selection-end-line="77" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1325,21 +1130,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/meitu.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/MeiTuXiuXiu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62">
           <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1347,21 +1151,321 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43846154">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/01.项目资料/赚钱包/sdk/Beiduo_Android_SDK_WALL_V5.5/BeiduoWallSample/src/com/offerwall/sample/SampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4446154">
+          <caret line="162" column="60" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/01.项目资料/赚钱包/sdk/Beiduo_Android_SDK_WALL_V5.5/BeiduoWallSample/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7076923">
+          <caret line="51" column="18" selection-start-line="36" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/flowlayout_bg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/refresh_foot.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/divider_recycleview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05846154">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/style.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14393939">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/lock_circle_error.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14615385">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/circle_progress.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/lock_circle_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/lock_point_normal.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/Float.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/libs/dlnetwork.jar!/com/dlnetwork/DevNativeActivity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.184765">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6138462">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/src/com/dlnetwork/example/DianleSDkExampleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26307693">
+          <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21538462">
+          <caret line="906" column="37" selection-start-line="906" selection-start-column="30" selection-end-line="906" selection-end-column="37" />
+          <folding>
+            <element signature="e#31527#31528#0" expanded="false" />
+            <element signature="e#31568#31569#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11692308">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8769231">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="333" column="29" selection-start-line="333" selection-start-column="29" selection-end-line="333" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.786992">
+          <caret line="15139" column="28" selection-start-line="15139" selection-start-column="24" selection-end-line="15139" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/view/ViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9476923">
+          <caret line="3125" column="19" selection-start-line="3125" selection-start-column="19" selection-end-line="3125" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6830769">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/view/GestureLockViewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="189" column="53" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323077">
+          <caret line="1179" column="16" selection-start-line="1179" selection-start-column="16" selection-end-line="1179" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/view/GestureLockView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="40" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/welcom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.939394">
+          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/fragment/FirstFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7123077">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/lock_line_normal.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26307693">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/util/logging/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1107693">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/MessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5446154">
+          <caret line="314" column="38" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="25" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="25" />
+          <folding>
+            <element signature="e#4519#4520#0" expanded="false" />
+            <element signature="e#4552#4553#0" expanded="false" />
+            <element signature="e#5003#5004#0" expanded="false" />
+            <element signature="e#5040#5041#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44153845">
+          <caret line="228" column="0" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/mynative/TestJni.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23384616">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/Parcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1539" column="0" selection-start-line="1539" selection-start-column="0" selection-end-line="1539" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/administrator/myapplication/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23384616">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23384616">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.17538461">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,7 +1533,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>libs5</last-edited>
+          <last-edited>libs8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

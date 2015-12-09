@@ -14,11 +14,14 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.administrator.myapplication.*;
+import com.example.administrator.myapplication.MainActivity;
 import com.example.practice.R;
 import com.example.practice.dao.TimeDBHelper;
 import com.example.practice.dao.domain.UserTime;
 import com.example.practice.dao.impl.TimeDaoImpl;
 import com.example.practice.util.Constant;
+import com.example.practice.view.LockPatternView;
 import com.example.practice.view.RefreshforListView;
 import com.example.practice.view.ToggleButton;
 
@@ -29,6 +32,7 @@ public class WelcomeActivity extends Activity {
 
     private ToggleButton toggleButton;
     private RefreshforListView listView;
+    private LockPatternView lockPatternView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,12 +42,15 @@ public class WelcomeActivity extends Activity {
         initView();
         initListener();
         setScreenSize();
+        Toast.makeText(WelcomeActivity.this, new MainActivity().getStringFromNative(), Toast.LENGTH_LONG).show();
     }
 
     private void initView() {
+        lockPatternView = (LockPatternView) findViewById(R.id.lock);
+
         listView = (RefreshforListView) findViewById(R.id.my_refresh_listview);
         MyAdapter adapter = new MyAdapter();
-        listView.setAdapter(adapter);
+//        listView.setAdapter(adapter);
         listView.setOnRefreshListener(new RefreshforListView.OnRefreshListener() {
             @Override
             public void onTopRefresh() {
@@ -75,6 +82,24 @@ public class WelcomeActivity extends Activity {
                 if (currentState) {
                     handler.postDelayed(null, 3000);
                     Toast.makeText(WelcomeActivity.this, "3秒后进入", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        lockPatternView.setListener(new LockPatternView.OnLockPatternListener() {
+            @Override
+            public void startLockPattern() {
+
+            }
+
+            @Override
+            public void onGestureEvent(String passWord) {
+                if ("125689".equals(passWord)) {
+                    handler.postDelayed(null, 3000);
+                    Toast.makeText(WelcomeActivity.this, "3秒后进入", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(WelcomeActivity.this, "密码错误", Toast.LENGTH_SHORT).show();
+                    lockPatternView.errorPassword();
                 }
             }
         });

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/demo.iml" filepath="E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/zhy_gestureLockView.iml" filepath="$PROJECT_DIR$/../../../资料/zhy_gestureLockView/zhy_gestureLockView.iml" />
     </modules>
   </component>
 </project>
