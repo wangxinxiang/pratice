@@ -15,7 +15,7 @@ public class MySlideMenu extends ViewGroup{
 
     private Scroller mScroller;
     private int lastTouchX;
-    private int menuWidth = 240;
+    private int menuWidth = 300;
 
     private final int MENU_SCREEN = 0; // 菜单界面
     private final int MAIN_SCREEN = 1; // 主界面

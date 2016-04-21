@@ -15,5 +15,8 @@
         <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
                 android:id="@+id/app_txwl"
                 android:text="启动天下无赖"/>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/zxing"
+            android:text="启动二维码扫描"/>
     </LinearLayout>
 </LinearLayout>

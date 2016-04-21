@@ -14,12 +14,15 @@ import android.view.SurfaceHolder;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RemoteViews;
+import android.widget.Toast;
+
 import com.example.practice.R;
 import com.example.practice.service.GetAllAppService;
 import com.example.practice.view.ArcMenu;
 import com.example.practice.view.FlowLayout;
 import com.example.practice.view.MySlideMenu;
 import com.example.practice.view.ToggleButton;
+import com.example.practice.zxing.MipcaActivityCapture;
 
 import java.util.List;
 
@@ -31,6 +34,7 @@ public class FirstSurfaceView extends Activity{
     private Paint paint;
     private SurfaceHolder holder;
     private MySlideMenu slideMenu;
+    private final static int SCANNIN_GREQUEST_CODE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -129,6 +133,15 @@ public class FirstSurfaceView extends Activity{
 
             }
         });
+        findViewById(R.id.zxing).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent();
+                intent.setClass(FirstSurfaceView.this, MipcaActivityCapture.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivityForResult(intent, SCANNIN_GREQUEST_CODE);
+            }
+        });
     }
 
     /**
@@ -175,7 +188,23 @@ public class FirstSurfaceView extends Activity{
 
     }
 
-//    /**
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case SCANNIN_GREQUEST_CODE:
+                if(resultCode == RESULT_OK){
+                    Bundle bundle = data.getExtras();
+                    //显示扫描到的内容
+                    Toast.makeText(FirstSurfaceView.this, bundle.getString("result"), Toast.LENGTH_SHORT).show();
+//                    mTextView.setText(bundle.getString("result"));
+//                    //显示
+//                    mImageView.setImageBitmap((Bitmap) data.getParcelableExtra("bitmap"));
+                }
+                break;
+        }
+    }
+
+    //    /**
 //     * 初始化surfaceView
 //     */
 //    private void initSurface() {

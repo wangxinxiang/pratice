@@ -3,8 +3,19 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/libs/android-support-v4.jar" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/libs/android-support-v7-recyclerview.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/libs/zxing.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_focused.9.PNG" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_normal.9.PNG" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_pressed.9.PNG" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/mmtitle_bg_alpha.9.PNG" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable/mm_title_back_btn.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/layout/activity_capture.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/layout/activity_title.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/layout/meitu.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/layout/mirror.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/res/layout/zxing_main.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/raw" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/values/ids.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/adapter/RecyclerViewAdapter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/fragment/FirstRecyclerView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/BeautifulGirl.java" charset="UTF-8" />
@@ -14,6 +25,26 @@
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MirrorSurface.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MyRecyclerView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/util/DividerItemDecoration.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/Activity" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/MipcaActivityCapture.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/AutoFocusCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraConfigurationManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/FlashlightManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/PlanarYUVLuminanceSource.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/PreviewCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeFormatManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/FinishListener.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/InactivityTimer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/Intents.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/view" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/view/ViewfinderResultPointCallback.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/view/ViewfinderView.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

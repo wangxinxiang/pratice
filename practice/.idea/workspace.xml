@@ -83,50 +83,10 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <devices>
-          <device id="Galaxy Nexus" />
-          <device id="Nexus S" />
-          <device id="Nexus One" />
-          <device id="Nexus 10" />
-          <device id="Nexus 5 (Edited)" />
-          <device id="Nexus 7" />
-          <device id="Nexus 5" />
-          <device id="Nexus 4" />
-        </devices>
         <target>android-22</target>
       </config>
     </shared>
     <layouts>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/exchange_item.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/exchange_qcoin_input_layout.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/login.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/me_layout.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/register.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
-      <layout url="file://E:/01.项目资料/赚钱包/zqbandroid/res/layout/share_layout.xml">
-        <config>
-          <theme>@android:style/Theme.Holo</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/res/layout/flowlayout_tv.xml">
         <config>
           <theme>@android:style/Theme.Holo</theme>
@@ -145,68 +105,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5138a7d7-6fb9-4c7c-a890-d5c7d33983c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi/libhello.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/armeabi-v7a/libhello.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/x86/libhello.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_line_error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_point_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/lock_point_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v44.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4_1c768c2e7d43f5f7517cf641d22cdfe5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/beiduo_sdk_wall_v5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dexedLibs6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dlnetwork.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dlnetwork_79a881b58a8c37dda0f046feb6e0e410.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fg_lock_pattern.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/libs11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_circle_error.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_circle_normal.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lock_line_normal.xml" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\dexedLibs4.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\dexedLibs5.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs10.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs5.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs6.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\wang\practice\pratice\practice\.idea\libraries\libs7.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/BeautifulGirl.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/BeautifulGirl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/fragment/FirstFragment.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/fragment/FirstFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FirstSurfaceView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FirstSurfaceView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FlowLayoutActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/FlowLayoutActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MeiTuXiuXiu.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MeiTuXiuXiu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MirrorSurface.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MirrorSurface.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyFirstViewActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyFirstViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyRecyclerView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/MyRecyclerView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/MyTreeListViewAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/MyTreeListViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$id.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$layout.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$string.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$style.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$styleable.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/R.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter$MyViewHolder.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter$MyViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/adapter/RecyclerViewAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/RefreshforListView.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/RefreshforListView.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TestViewGroupActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TestViewGroupActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/ToggleButton.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/view/ToggleButton.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/util/treeview/TreeHelper.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/util/treeview/TreeHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TreeListViewActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/TreeListViewActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$1.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$2.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$3.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$4.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$MyAdapter.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity$MyAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity.class" afterPath="$PROJECT_DIR$/out/production/practice/com/example/practice/ui/WelcomeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/practice.apk" afterPath="$PROJECT_DIR$/out/production/practice/practice.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/practice/practice.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/practice/practice.unaligned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" afterPath="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" afterPath="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/welcom.xml" afterPath="$PROJECT_DIR$/res/layout/welcom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/beep.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_focused.9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_normal.9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mm_title_back_pressed.9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/mmtitle_bg_alpha.9.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/zxing.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/AutoFocusCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraConfigurationManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeFormatManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/FinishListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/FlashlightManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/InactivityTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/Intents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/MipcaActivityCapture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/PlanarYUVLuminanceSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/camera/PreviewCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/view/ViewfinderResultPointCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/practice/zxing/view/ViewfinderView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_capture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_title.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/ids.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/mm_title_back_btn.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/realm_properties" />
+      <change type="DELETED" beforePath="E:\code\Android\git\practice\practice\out\production\alipay_demo\alipay_demo.apk" afterPath="" />
+      <change type="DELETED" beforePath="E:\code\Android\git\practice\practice\out\production\alipay_demo\alipay_demo.unaligned.apk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/example/practice/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/practice/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java" afterPath="$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java" afterPath="$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/color.xml" afterPath="$PROJECT_DIR$/res/values/color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice.iml" afterPath="$PROJECT_DIR$/practice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/slide_menu.xml" afterPath="$PROJECT_DIR$/res/layout/slide_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="practice.iws" />
@@ -255,21 +191,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LockPatternView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
+      <file leaf-file-name="FirstSurfaceView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17538461">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.16107382">
+              <caret line="138" column="45" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+              <folding>
+                <element signature="e#1853#2141#0" expanded="true" />
+                <element signature="e#2140#2141#0" expanded="true" />
+                <element signature="e#5136#5518#0" expanded="true" />
+                <element signature="e#5517#5518#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FinishListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/FinishListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fg_lock_pattern.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
+      <file leaf-file-name="first_surface_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/first_surface_view.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            <state vertical-scroll-proportion="-7.2">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -278,13 +229,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java">
+      <file leaf-file-name="slide_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/slide_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
-              <folding />
+            <state vertical-scroll-proportion="-15.0">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <element signature="e#382#403#0" expanded="true" />
+              </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -304,6 +260,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
@@ -314,19 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/practice/ui/MyRecyclerView.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/fragment/FirstRecyclerView.java" />
-        <option value="$PROJECT_DIR$/res/layout/text_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/TreeNodeId.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/annotation/TreeNodeId.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/annotation/TreeNodePid.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/annotation/TreeNodeLabel.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/bean/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/TreeHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/adapter/TreeListViewAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/adapter/RecyclerViewAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/bean/FileBean.java" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/util/treeview/adapter/TreeListViewAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/tree_list_item.xml" />
         <option value="$PROJECT_DIR$/src/com/example/practice/util/treeview/TreeHelper.java" />
         <option value="$PROJECT_DIR$/src/com/example/practice/bean/OrgBean.java" />
@@ -342,7 +286,6 @@
         <option value="$PROJECT_DIR$/res/layout/arcmenu.xml" />
         <option value="$PROJECT_DIR$/src/com/example/practice/adapter/MyTreeListViewAdapter.java" />
         <option value="E:/01.项目资料/赚钱包/sdk/umeng_android_social_sdk_4.3.0_custom/social_sdk_example/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java" />
         <option value="$PROJECT_DIR$/res/layout/test1.xml" />
         <option value="$PROJECT_DIR$/res/layout/tree_listview.xml" />
         <option value="$PROJECT_DIR$/src/com/example/practice/ui/TreeListViewActivity.java" />
@@ -365,6 +308,20 @@
         <option value="$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java" />
         <option value="$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/administrator/myapplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/view/ViewfinderView.java" />
+        <option value="$PROJECT_DIR$/res/layout/zxing_main.xml" />
+        <option value="$PROJECT_DIR$/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/res/values/ids.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java" />
+        <option value="$PROJECT_DIR$/res/layout/slide_menu.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/Activity/CaptureActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/MipcaActivityCapture.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/FinishListener.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeThread.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java" />
       </list>
     </option>
   </component>
@@ -386,10 +343,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1458" />
-    <option name="height" value="870" />
+    <option name="x" value="54" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -439,7 +396,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -479,6 +435,10 @@
               <option name="myItemId" value="practice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zxing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -499,10 +459,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mynative" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,6 +502,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -559,7 +516,7 @@
     <property name="recentsLimit" value="5" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="IVFQSWGAS8DYJB49" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_S_by_Google" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../demo/MyApplication" />
+    <property name="last_opened_file_path" value="E:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.31724137" />
@@ -571,29 +528,29 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="IVFQSWGAS8DYJB49" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\Android\git\practice\practice\src\com\example\practice\zxing" />
+      <recent name="E:\code\Android\git\practice\practice\res" />
+      <recent name="E:\code\Android\git\practice\practice\res\values" />
+      <recent name="E:\code\Android\git\practice\practice\res\layout" />
+      <recent name="E:\code\Android\git\practice\practice\res\drawable-hdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.practice" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.practice.zxing" />
       <recent name="com.example.practice.util.annotation" />
       <recent name="com.jhlc.zqb.weibo" />
       <recent name="com.jhlc.zqb.view" />
       <recent name="com.jhlc.zqb.util" />
-      <recent name="com.example.practice" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wang\practice\pratice\practice\libs" />
-      <recent name="E:\wang\practice\pratice\practice\res\drawable-xhdpi" />
-      <recent name="E:\wang\practice\pratice\practice\res\drawable" />
-      <recent name="E:\wang\practice\pratice\practice\res\drawable-hdpi" />
-      <recent name="E:\wang\practice\pratice\practice\res\drawable-mdpi" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.practice" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.practice">
@@ -988,46 +945,46 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1458" height="870" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.4971223" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5028777" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.4400289" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963924" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5028777" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25829726" sideWeight="0.49425286" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4648094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46264368" sideWeight="0.7093525" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274596" sideWeight="0.4971223" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2579365" sideWeight="0.49425286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963924" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24532375" sideWeight="0.50574714" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34051725" sideWeight="0.36546764" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32805756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964029" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4398827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275862" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4648094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34051725" sideWeight="0.36546764" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46264368" sideWeight="0.7093525" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3240469" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1060,10 +1017,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/first_surface_view.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.212121">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1071,17 +1036,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/CircleImageDrawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.035384614">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Bitmap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323077">
-          <caret line="754" column="25" selection-start-line="754" selection-start-column="25" selection-end-line="754" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1100,32 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="85" selection-start-line="58" selection-start-column="85" selection-end-line="58" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/test1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41491085">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="73" selection-start-line="77" selection-start-column="73" selection-end-line="77" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/BitmapFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0338461">
-          <caret line="294" column="23" selection-start-line="294" selection-start-column="23" selection-end-line="294" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,20 +1091,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.43846154">
           <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/Beiduo_Android_SDK_WALL_V5.5/BeiduoWallSample/src/com/offerwall/sample/SampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4446154">
-          <caret line="162" column="60" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/Beiduo_Android_SDK_WALL_V5.5/BeiduoWallSample/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7076923">
-          <caret line="51" column="18" selection-start-line="36" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1235,145 +1161,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/Float.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323077">
-          <caret line="236" column="31" selection-start-line="236" selection-start-column="31" selection-end-line="236" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/libs/dlnetwork.jar!/com/dlnetwork/DevNativeActivity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.184765">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6138462">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/01.项目资料/赚钱包/sdk/点乐/Dianjoy_Android_SDK_v4.0/demo/src/com/dlnetwork/example/DianleSDkExampleActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26307693">
-          <caret line="102" column="41" selection-start-line="102" selection-start-column="41" selection-end-line="102" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21538462">
-          <caret line="906" column="37" selection-start-line="906" selection-start-column="30" selection-end-line="906" selection-end-column="37" />
-          <folding>
-            <element signature="e#31527#31528#0" expanded="false" />
-            <element signature="e#31568#31569#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11692308">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8769231">
-          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323077">
-          <caret line="333" column="29" selection-start-line="333" selection-start-column="29" selection-end-line="333" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/view/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.786992">
-          <caret line="15139" column="28" selection-start-line="15139" selection-start-column="24" selection-end-line="15139" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/view/ViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9476923">
-          <caret line="3125" column="19" selection-start-line="3125" selection-start-column="19" selection-end-line="3125" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6830769">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/view/GestureLockViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="189" column="53" selection-start-line="189" selection-start-column="47" selection-end-line="189" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323077">
-          <caret line="1179" column="16" selection-start-line="1179" selection-start-column="16" selection-end-line="1179" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../资料/zhy_gestureLockView/src/com/zhy/zhy_gesturelockview/view/GestureLockView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="120" column="40" selection-start-line="120" selection-start-column="12" selection-end-line="120" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/welcom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.939394">
           <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -1395,33 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/java/util/logging/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1107693">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/MessageQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5446154">
-          <caret line="314" column="38" selection-start-line="314" selection-start-column="35" selection-end-line="314" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="25" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="25" />
-          <folding>
-            <element signature="e#4519#4520#0" expanded="false" />
-            <element signature="e#4552#4553#0" expanded="false" />
-            <element signature="e#5003#5004#0" expanded="false" />
-            <element signature="e#5040#5041#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44153845">
@@ -1437,12 +1201,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/wang/Android/sdk/sources/android-22/android/os/Parcel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/administrator/myapplication/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="1539" column="0" selection-start-line="1539" selection-start-column="0" selection-end-line="1539" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.23384616">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="48" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fg_lock_pattern.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13250883">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/WelcomeActivity.java">
@@ -1453,19 +1228,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/administrator/myapplication/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23384616">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="48" />
+        <state vertical-scroll-proportion="-10.276846">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/LockPatternView.java">
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17538461">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4614094">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/ids.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4194631">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13204226">
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/view/MySlideMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33557048">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_capture.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3091873">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/mm_title_back_btn.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/test1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/first_surface_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/slide_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.0">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="e#382#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/sdk/android-sdk-windows/sources/android-23/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33221477">
+          <caret line="5029" column="19" selection-start-line="5029" selection-start-column="19" selection-end-line="5029" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/FinishListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79362416">
+          <caret line="85" column="22" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4966443">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54530203">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/zxing/MipcaActivityCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5050336">
+          <caret line="135" column="35" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/practice/ui/FirstSurfaceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16107382">
+          <caret line="138" column="45" selection-start-line="138" selection-start-column="45" selection-end-line="138" selection-end-column="45" />
+          <folding>
+            <element signature="e#1853#2141#0" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#5136#5518#0" expanded="true" />
+            <element signature="e#5517#5518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
