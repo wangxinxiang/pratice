@@ -53,6 +53,13 @@
             android:theme="@style/AppBaseTheme"/>
         <activity android:name=".ui.TreeListViewActivity"/>
         <activity android:name=".ui.FlowLayoutActivity"/>
+        <activity
+                android:name=".zxing.MipcaActivityCapture"
+                android:configChanges="orientation|keyboardHidden"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppBaseTheme"
+                android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
 
         <service android:name=".service.FirstService">
             <intent-filter>com.example.practice.service.FirstService</intent-filter>

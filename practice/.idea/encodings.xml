@@ -13,7 +13,6 @@
     <file url="file://$PROJECT_DIR$/res/layout/activity_title.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/layout/meitu.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/res/layout/mirror.xml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/res/layout/zxing_main.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/raw" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/values/ids.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/adapter/RecyclerViewAdapter.java" charset="UTF-8" />
@@ -25,17 +24,17 @@
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MirrorSurface.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/ui/MyRecyclerView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/util/DividerItemDecoration.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/Activity" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/MipcaActivityCapture.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/AutoFocusCallback.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraConfigurationManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraManager.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/CameraManager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/FlashlightManager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/PlanarYUVLuminanceSource.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/camera/PreviewCallback.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/CaptureActivityHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeFormatManager.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeHandler.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/com/example/practice/zxing/decoding/DecodeThread.java" charset="GBK" />

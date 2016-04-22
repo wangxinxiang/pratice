@@ -27,9 +27,9 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.example.qr_codescan.R;
+import com.example.practice.R;
+import com.example.practice.zxing.camera.CameraManager;
 import com.google.zxing.ResultPoint;
-import com.mining.app.zxing.camera.CameraManager;
 
 import java.util.Collection;
 import java.util.HashSet;
